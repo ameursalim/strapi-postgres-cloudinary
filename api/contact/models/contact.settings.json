@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "adresse": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "statut": {
+      "type": "string"
+    },
+    "capital": {
+      "type": "string"
+    },
+    "ordre": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    }
+  }
+}
