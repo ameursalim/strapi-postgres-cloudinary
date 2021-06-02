@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "descriptions",
+  "info": {
+    "name": "descriptions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "lieux": {
+      "type": "string"
+    },
+    "programme": {
+      "type": "string"
+    },
+    "maitrise": {
+      "type": "string"
+    },
+    "equipe": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
