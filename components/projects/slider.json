@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_projects_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.slide"
+    }
+  }
+}

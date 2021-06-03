@@ -19,6 +19,12 @@
     },
     "order": {
       "type": "integer"
+    },
+    "slider": {
+      "type": "dynamiczone",
+      "components": [
+        "projects.slider"
+      ]
     }
   }
 }
