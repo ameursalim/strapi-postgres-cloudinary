@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_slide_slides",
+  "info": {
+    "name": "slide",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}
