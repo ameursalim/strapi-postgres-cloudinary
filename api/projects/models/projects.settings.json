@@ -19,12 +19,6 @@
     },
     "order": {
       "type": "integer"
-    },
-    "slider": {
-      "type": "dynamiczone",
-      "components": [
-        "slide.slide"
-      ]
     }
   }
 }
