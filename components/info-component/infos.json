@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_info_component_infos",
+  "info": {
+    "name": "Infos",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "addInfos": {
+      "type": "richtext"
+    }
+  }
+}
