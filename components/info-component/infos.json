@@ -2,11 +2,12 @@
   "collectionName": "components_info_component_infos",
   "info": {
     "name": "Infos",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "addInfos": {
+    "infos": {
       "type": "richtext"
     }
   }
