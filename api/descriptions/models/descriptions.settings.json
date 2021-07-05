@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "descriptions",
   "info": {
-    "name": "descriptions"
+    "name": "descriptions",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,26 +11,14 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "year": {
-      "type": "integer"
-    },
-    "ville": {
+    "title": {
       "type": "string"
     },
-    "lieux": {
-      "type": "string"
-    },
-    "programme": {
-      "type": "string"
-    },
-    "maitrise": {
-      "type": "string"
-    },
-    "equipe": {
-      "type": "string"
-    },
-    "status": {
-      "type": "string"
+    "addInfos": {
+      "type": "dynamiczone",
+      "components": [
+        "info-component.infos"
+      ]
     }
   }
 }
